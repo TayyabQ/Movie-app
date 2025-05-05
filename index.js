@@ -3,7 +3,7 @@ const fetchMovies = async () => {
     const options = {
       method: 'GET',
       headers: {
-        'x-rapidapi-key': '055e5eb636msh289b960af721e75p136f7cjsnb284178c8788',
+        'x-rapidapi-key': '04c81fee32msh8537018ffa82bdap12ac32jsnbfef869e9c2a',
         'x-rapidapi-host': 'imdb236.p.rapidapi.com'
       }
     };

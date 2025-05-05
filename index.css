@@ -5,16 +5,35 @@ body{
     justify-content: center;
     text-align: center;
     background-color: black;
+    color: white;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 10px;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+#links:hover{
     color: red;
 }
 
 body > h1{
-    font-size: 48px;
-}
-
-body > h2{
-    font-size: 22px;
-    color: rgb(233, 5, 5);
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
 }
 
 #movie-container{
